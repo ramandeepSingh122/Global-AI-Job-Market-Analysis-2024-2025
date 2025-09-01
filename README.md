@@ -1,6 +1,6 @@
 # Global-AI-Job-Market-2024-2025
 
-**Overview**
+**Overview:**
 The Global AI Jobs Analysis 2024–2025 project provides a comprehensive examination of the worldwide AI job market, focusing on salaries, job roles, experience levels, skills demand, industries, and geographic trends. This project combines data cleaning, SQL-based analysis, Power BI visualizations, and predictive modeling to deliver actionable insights for job seekers, recruiters, and industry analysts.
 Key objectives:
 Analyze salary trends across job titles, companies, and countries,
@@ -10,12 +10,12 @@ Explore geographic trends and remote work adoption,
 Provide predictive insights for AI job salaries using Python and machine learning.
 This project is designed as an end-to-end workflow: raw dataset → cleaning → SQL analysis → CSV exports → Power BI dashboard → predictive modeling in Python.
 
-**Dataset**
+**Dataset:**
 Source: Kaggle – Global AI Job Market Trends & Salary Insights 2025
- you can find dataset at : [ai_job_dataset.csv](ai_job_dataset.csv)
+ you can find dataset here : [ai_job_dataset.csv](ai_job_dataset.csv)
 
-**Data Cleaning**
-First the dataset was imported in Microsoft Excel for Data cleaning 
+**Data Cleaning:**
+First the dataset was imported in Microsoft Excel for Data cleaning and formatting
 Cleaning Steps:
 1. Removed duplicate rows,
 2. Corrected missing Job IDs (e.g., ID0001, ID0002…),
@@ -25,7 +25,7 @@ Experience Level: EN → Entry, MI → Mid, SE → Senior, EX → Executive,Empl
 5. Normalized salary fields: salary_usd → salary, kept currency in salary_currency,
 6. Added clarity: min_experience_req in years, remote_ratio as %,
 7. Added work_type column (Remote / Hybrid / On-site),
-   the cleaned file was stored as [cleanedExcelproject1.xlsx](cleanedExcelproject1.xlsx)
+   the cleaned file is stored here: [cleanedExcelproject1.xlsx](cleanedExcelproject1.xlsx)
 
 **Analysing Data**
 Queries executed in MySQL to analyse data and determine underlying patters , trends to formulate meaningful insights
@@ -38,9 +38,10 @@ Some of analyses performed:
 6.Skills and education requirements,
 7. Location analysis and top countries hiring,
 8. Time trends and job posting analysis,
-9. Advanced analyses like salary growth trend, benefit score correlation, and job description length impact on salary and many more
-All the queries executed can be find here [Project1Actual.sql](Project1Actual.sql)
-All the results of queries were imported in MS excel as CSV file which can be find at [Analysis_Results](Analysis_Results) ,for visualization and Further analysis using Python
+9. Advanced analyses like salary growth trend, benefit score correlation, and job description length impact on salary and many more.
+
+All the queries executed can be find here: [Project1Actual.sql](Project1Actual.sql), 
+All the results of queries were imported in MS excel as CSV file which can be find at [Analysis_Results](Analysis_Results) , which were used further for visualization and analysis using Python.
 
 **Visualization**
 For visualizing data PowerBI desktop was used . entire report was divided into 5 pages for efficient storytelling.
@@ -49,14 +50,14 @@ For visualizing data PowerBI desktop was used . entire report was divided into 5
 3.Company & industry insights
 4.Location analysis & insights
 5.Time trends and analysis
-Dashboard can be find in the following Power Bi file.[project1.bi.pbix](project1.bi.pbix)
+Report can be find here [project1.bi.pbix](project1.bi.pbix)
 
 **Predictive Analysis**
 We built a model to predict AI job salaries based on factors like job title, experience level, skills, location, and company size.
-What we predicted:
-1. Country that will offer maximum jobs,
-2. Salry that will offer in AI jobs
-3. Which job will get maximum salary
-4. which country will offer maximum jobs
+Predictions Include:
+1. Estimated salaries for different AI roles worldwide,
+2. Influence of experience, skills, remote work, and location on salaries,
+3. Highest paying roles and countries,
+4. Countries offering the maximum number of jobs.
 all the code and results can be find here [Ai_Jobs_Market_prediction.ipynb](Ai_Jobs_Market_prediction.ipynb)
 

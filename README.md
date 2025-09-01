@@ -26,8 +26,6 @@ Experience Level: EN → Entry, MI → Mid, SE → Senior, EX → Executive,Empl
 6. Added clarity: min_experience_req in years, remote_ratio as %,
 7. Added work_type column (Remote / Hybrid / On-site),
    the cleaned file was stored as [cleanedExcelproject1.xlsx](cleanedExcelproject1.xlsx)
-Tools Used: Microsoft Excel for cleaning, formatting, and validation.
-
 
 **Analysing Data**
 Queries executed in MySQL to analyse data and determine underlying patters , trends to formulate meaningful insights
@@ -41,7 +39,7 @@ Some of analyses performed:
 7. Location analysis and top countries hiring,
 8. Time trends and job posting analysis,
 9. Advanced analyses like salary growth trend, benefit score correlation, and job description length impact on salary and many more
-All the queries executed can be find here
+All the queries executed can be find here [Project1Actual.sql](Project1Actual.sql)
 All the results of queries were imported in MS excel as CSv file for visualization and Further analysis using Python.
 
 **Visualization**

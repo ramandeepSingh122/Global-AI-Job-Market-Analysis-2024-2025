@@ -54,10 +54,9 @@ Dashboard can be find in the following Power Bi file.[project1.bi.pbix](project1
 **Predictive Analysis**
 We built a model to predict AI job salaries based on factors like job title, experience level, skills, location, and company size.
 What we predicted:
-Estimated salaries for different AI roles around the world,How experience, skills, remote work, and location affect salaries,Trends showing which jobs or countries pay more.
-Results:
-1. The model gives approximate salaries (MAE: 42,636 USD).
-2. It helps understand general patterns in the AI job market, even if exact numbers vary.
-Key Takeaway:
-This prediction shows which roles, skills, and locations tend to pay higher, helping job seekers and recruiters make informed decisions.
+1. Country that will offer maximum jobs,
+2. Salry that will offer in AI jobs
+3. Which job will get maximum salary
+4. which country will offer maximum jobs
+all the code and results can be find here [Ai_Jobs_Market_prediction.ipynb](Ai_Jobs_Market_prediction.ipynb)
 

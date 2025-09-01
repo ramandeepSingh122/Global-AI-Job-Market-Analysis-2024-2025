@@ -56,7 +56,7 @@ We built a model to predict AI job salaries based on factors like job title, exp
 What we predicted:
 1. Country that will offer maximum salary(Switzerland)
 2.Average Salary that will offer in AI jobs(MAE: 42,636 USD),
-3. Which job will get maximum salary(AI Architect),
+3. Which job will get maximum salary(AI specialist),
 4. which country will offer maximum Jobs(Germany).
 Results:
 1. The model gives approximate salaries (MAE: 42,636 USD).

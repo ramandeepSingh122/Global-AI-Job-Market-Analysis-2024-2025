@@ -12,7 +12,7 @@ This project is designed as an end-to-end workflow: raw dataset → cleaning →
 
 **Dataset**
 Source: Kaggle – Global AI Job Market Trends & Salary Insights 2025
- you can find dataset at : | `ai_job_dataset.csv` | [Original Kaggle dataset](datasets/ai_job_dataset.csv) |
+ you can find dataset at : [ai_job_dataset.csv](ai_job_dataset.csv)
 
 **Data Cleaning**
 First the dataset was imported in Microsoft Excel for Data cleaning 

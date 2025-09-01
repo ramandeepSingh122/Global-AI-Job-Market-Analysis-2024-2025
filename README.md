@@ -24,8 +24,10 @@ Cleaning Steps:
 Experience Level: EN → Entry, MI → Mid, SE → Senior, EX → Executive,Employment Type: CT → Contract, FT → Full-time, PT → Part-time, FL → Freelance,
 5. Normalized salary fields: salary_usd → salary, kept currency in salary_currency,
 6. Added clarity: min_experience_req in years, remote_ratio as %,
-7. Added work_type column (Remote / Hybrid / On-site)
-Tools Used: Microsoft Excel for cleaning, formatting, and validation
+7. Added work_type column (Remote / Hybrid / On-site),
+   the cleaned file was stored as [cleanedExcelproject1.xlsx](cleanedExcelproject1.xlsx)
+Tools Used: Microsoft Excel for cleaning, formatting, and validation.
+
 
 **Analysing Data**
 Queries executed in MySQL to analyse data and determine underlying patters , trends to formulate meaningful insights

@@ -40,7 +40,7 @@ Some of analyses performed:
 8. Time trends and job posting analysis,
 9. Advanced analyses like salary growth trend, benefit score correlation, and job description length impact on salary and many more
 All the queries executed can be find here [Project1Actual.sql](Project1Actual.sql)
-All the results of queries were imported in MS excel as CSV file [Analysis_Results](Analysis_Results) ,for visualization and Further analysis using Python
+All the results of queries were imported in MS excel as CSV file which can be find at [Analysis_Results](Analysis_Results) ,for visualization and Further analysis using Python
 
 **Visualization**
 For visualizing data PowerBI desktop was used . entire report was divided into 5 pages for efficient storytelling.
@@ -49,7 +49,7 @@ For visualizing data PowerBI desktop was used . entire report was divided into 5
 3.Company & industry insights
 4.Location analysis & insights
 5.Time trends and analysis
-Dashboard can be find in the following Power Bi file.
+Dashboard can be find in the following Power Bi file.[Project1.bi.pbix](Project1.bi.pbix)
 
 **Predictive Analysis**
 We built a model to predict AI job salaries based on factors like job title, experience level, skills, location, and company size.

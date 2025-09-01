@@ -49,7 +49,7 @@ For visualizing data PowerBI desktop was used . entire report was divided into 5
 3.Company & industry insights
 4.Location analysis & insights
 5.Time trends and analysis
-Dashboard can be find in the following Power Bi file.[Project1.bi.pbix](Project1.bi.pbix)
+Dashboard can be find in the following Power Bi file.[project1.bi.pbix](project1.bi.pbix)
 
 **Predictive Analysis:**
 We built a model to predict AI job salaries based on factors like job title, experience level, skills, location, and company size.
